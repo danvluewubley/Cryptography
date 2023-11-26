@@ -3,7 +3,6 @@ import numpy as np
 key = input("Key:" )
 plain_text = input("Plain Text: ").replace(" ", "")
 cipher_text = input("Cipher Text: ").replace(" ", "")
-print(type(cipher_text))
 
 # changes the key string (4 chars) into a matrix
 def key_to_matrix(key):
